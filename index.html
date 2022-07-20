@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;400;500;600;700;600;900&family=Raleway:ital,wght@0,100;0,300;0,600;0,800;1,100;1,300;1,600;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script
+      src="https://kit.fontawesome.com/44e4196b37.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.webp" />
+    <link rel="icon" type="image/webp" sizes="32x32" href="/favicon-32x32.webp" />
+    <link rel="icon" type="image/webp" sizes="16x16" href="/favicon-16x16.webp" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <title>Sanford Federal</title>
+  </head>
+  <body>
+    <div class="spinner_container">
+      <span class="loader"></span>
+    </div>
+    <div class="backdrop"></div>
+    <header class="main_header" role="banner">
+      <video autoplay muted loop preload class="hero_video" id="hero_video">
+        <source src="videos/earth_from_space.mp4" type="video/mp4" />
+      </video>
+      <nav class="main_nav" id="navbar">
+        <ul class="nav_hoverable-items">
+          <a href="#">
+            <li class="dropdown who_we_are-menu">
+              Who We Are
+              <div class="dropdownMenu">
+                <ul class="dropdownMenu-content">
+                  <li><a href="#our_company">Our Company</a></li>
+                  <li><a href="#our_values">Vision & Values</a></li>
+                  <li><a href="#our_leaders">Executive Leadership</a></li>
+                </ul>
+              </div>
+            </li>
+          </a>
+          <a href="#">
+            <li class="dropdown what_we_do-menu">
+              What We Do
+              <div class="dropdownMenu">
+                <ul class="dropdownMenu-content">
+                  <li>
+                    <a href="#services">Logistics And Acquisition Support</a>
+                  </li>
+                  <li><a href="#services">Cybersecurity</a></li>
+                  <li><a href="#services">Information Technologies</a></li>
+                  <li><a href="#services">Healthcare Services</a></li>
+                  <li><a href="#services">Managed Services</a></li>
+                  <li><a href="#services">Data Analysis And Management</a></li>
+                </ul>
+              </div>
+            </li>
+          </a>
+        </ul>
+        <a href="#navbar"
+          ><img
+            src="logo/white-logo-no-background.webp"
+            alt="Sanford Federal Logo"
+        /></a>
+        <ul class="nav-items">
+          <a href="#our_partners"><li>Insights & News</li></a>
+          <a href="#contact_us"><li>Contact US</li></a>
+        </ul>
+      </nav>
+      <nav class="navbar_mobile" id="navbar">
+        <a href="#navbar" class="navbar_mobile--logo">
+          <img
+            src="logo/white-logo-no-background.webp"
+            alt="Sanford Federal Logo"
+          />
+        </a>
+        <i class="fa-solid fa-bars navbar_mobile--menubutton"></i>
+        <div class="navbar_mobile--menu">
+          <div class="navbar_mobile-title aboutusbutton">
+            <h2>Who We Are</h2>
+            <i class="fa-solid fa-caret-right triangle trianglewhoweare"></i>
+          </div>
+          <ul class="navbar_mobile--aboutus">
+            <li><a href="#our_company">Our Company</a></li>
+            <li><a href="#our_values">Vision & Values</a></li>
+            <li><a href="#our_leaders">Executive Leadership</a></li>
+          </ul>
+          <div class="navbar_mobile-title servicesbutton">
+            <h2>What we Do</h2>
+            <i class="fa-solid fa-caret-right triangle trianglewhatwedo"></i>
+          </div>
+          <ul class="navbar_mobile-services">
+            <li><a href="#services">Logistics And Acquisition Support</a></li>
+            <li><a href="#services">Cybersecurity</a></li>
+            <li><a href="#services">Information Technologies</a></li>
+            <li><a href="#services">Healthcare Services</a></li>
+            <li><a href="#services">Managed Services</a></li>
+            <li><a href="#services">Data Analysis And Management</a></li>
+          </ul>
+          <h2 class="navbar_mobile-title">Insights & News</h2>
+          <h2 class="navbar_mobile-title">Insights & News</h2>
+        </div>
+      </nav>
+      <section class="main_slogant">
+        <h1 class="main_headline">CHALLENGE ACCEPTED</h1>
+        <p class="main_headline--description" id="main_headline--description">
+          Driving success at the speed of the modern mission
+        </p>
+      </section>
+      <button class="left_button" id="left_button">
+        <i class="fa-solid fa-chevron-left"></i>
+      </button>
+      <button class="right_button" id="right_button">
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
+    </header>
+
+    <main class="main">
+      <article class="ceo_message">
+        <img
+          class="ceo_image"
+          src="Logo/mandour4.webp"
+          alt="Mr. Mandour's Picture"
+        />
+        <div class="ceo_message_description">
+          <h2 class="ceo_message-title">CEO's Message</h2>
+          <p>
+            Our people are the secret to our success, and we’re passionate about
+            creating a fun, supportive, and stimulating environment so they can
+            do their best work. Whether you have decades of work experience or
+            you are entering the workforce for the first time, Sanford Federal
+            is always looking for great people who embrace our values and are up
+            for the challenge.
+          </p>
+          <img
+            src="logo/Jmandour Signature.webp"
+            alt="Ceo's Signature"
+            class="ceo_signature"
+          />
+        </div>
+      </article>
+      <section class="about_us" id="our_company">
+        <div class="Who_we_are">
+          <h2 class="Who_we_are-headline">WHO WE ARE</h2>
+          <p class="Who_we_are-text">
+            Our mission is to empower our employees to develop solutions that
+            break through barriers – making technology smarter, communication
+            easier, nations safer, and communities stronger.
+          </p>
+        </div>
+        <div class="video_section">
+          <p class="video_section-text">
+            Sanford Federal INC. Headquartered In Stafford, VA Is a premier,
+            federal professional services company, primarily engaged in
+            providing advanced information technology, cyber security,
+            management systems support, as well as business and infrastructure
+            management services. We are among the most innovative, respected and
+            ethical providers of technology solutions to the United States
+            government. Our mission is to provide superior-quality, innovative,
+            information technology solutions that help federal agencies best
+            aid, serve and protect the American people.
+          </p>
+          <div class="video_section-video">
+            <video controls width="100%">
+              <source src="videos/Sanford Federal.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      </section>
+      <section class="our_description">
+        <div class="our_values" id="our_values">
+          <h2 class="our_values-title">Our Values</h2>
+          <img
+            src="Images/Values multiple lines.webp"
+            alt=""
+            class="our_values--image"
+          />
+        </div>
+        <div class="our_mission">
+          <h2 class="our_mission-title">Our Mission</h2>
+          <p class="our_mission-description">
+            To enable our people to create solutions that break through
+            boundaries, resulting in better technology, easier communication,
+            safer nations, and stronger communities.
+          </p>
+        </div>
+        <div class="our_vision">
+          <h2 class="our_vision-title">Our Vision</h2>
+          <p class="our_vision-description">
+            To be a motivating, inventive, and resilient company that our people
+            like working with, customers trust, partners appreciate, and
+            competitors admire.
+          </p>
+        </div>
+        <div class="our_slogan">
+          <h2 class="our_slogan-title">Our Slogan</h2>
+          <h3 class="our_slogan-subtitle">Because We Can</h3>
+          <p class="our_slogan-description">
+            We see projects through to completion and provide proactive
+            solutions to meet and exceed expectations. Quality concepts are
+            instilled in operational excellence, which tangibly indicate
+            achievement.
+          </p>
+        </div>
+      </section>
+      <section class="our_leaders" id="our_leaders">
+        <h2 class="our_leaders-title">MEET OUR LEADERS</h2>
+        <div class="jMandour">
+          <img src="Logo/mandour2.webp" alt="" class="jMandour_image" />
+          <div class="jMandour_text">
+            <h3 class="jMandour_title">President & CEO</h3>
+            <h4 class="jMandour_name">Joseph Mandour</h4>
+            <p class="jMandour_description">
+              Mr. Joseph Mandour is a service-disabled veteran, president and
+              CEO of five companies, among the largest private technology and
+              services integrators in the defense, and government services
+              industry. He is also the founder and chairman of four other
+              businesses in the federal sectors. Mr. Mandour served three years
+              with the US Department of State as a contractor. He also served as
+              consultant to numerous contracting companies before he decided to
+              start his own business in 2016.
+            </p>
+          </div>
+        </div>
+        <div class="dLynam">
+          <div class="dLynam_text">
+            <h3 class="dLynam_title">Vice President</h3>
+            <h4 class="dLynam_name">Daniel Lynam</h4>
+            <p class="dLynam_description">
+              Mr. Daniel J Lynam is the Vice President of Sanford Federal INC. ,
+              Mr. Lynam is a graduate of American University In Washington D.C.
+              where he studied International Business. Since 2018, Mr. Lynam has
+              been the Vice President of Sanford Federal INC.
+            </p>
+          </div>
+          <img src="Logo/daniel.webp" alt="" class="dLynam_image" />
+        </div>
+      </section>
+      <section class="services">
+        <div class="our_services" id="our_services">
+          <h2 class="our_services-headline">OUR SERVICES</h2>
+        </div>
+        <!-- Logistics Popup Section Start -->
+        <div class="our_services--popup-container logistics_popup">
+          <button class="close_button" id="close_button">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+          <div class="our_services--popup-text">
+            <h3 class="our_services--popup-title">
+              Logistics And Acquisition Support
+            </h3>
+            <p class="our_services--popup-description">
+              Sanford Federal Inc. International is a global operation that is
+              ready to meet the needs of the government, whether they are in the
+              continental United States or halfway around the world. From
+              acquisition and material readiness to total supply chain
+              management, our team is able to deploy and support the United
+              States government and its mission, wherever it may be. Whether we
+              are delivering fuel to our troops overseas and provisioning for
+              and managing the flow of supplies in dangerous and volatile
+              conflict zones around the world, or managing logistics for the
+              Department of Defense stateside, we stand ready to assist the vast
+              needs of the federal government. We are able to deliver a wide
+              range of logistics support to our clients to ensure mission
+              performance, wherever they may be.
+            </p>
+          </div>
+          <div class="our_services--popup-image logistics_image"></div>
+        </div>
+        <!-- Logistics Popup Section End -->
+
+        <!-- Cyber security Popup Section Start -->
+        <div class="our_services--popup-container Cyber-security_popup">
+          <button class="close_button" id="close_button">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+          <div class="our_services--popup-text">
+            <h3 class="our_services--popup-title">Cybersecurity</h3>
+            <p class="our_services--popup-description">
+              Sanford Federal understands the risks of operating in an
+              increasingly connected world. Our team leverages our expertise in
+              cybersecurity to provide the U.S. Government with the tools it
+              needs to keep our country safe from foreign and domestic threats.
+              Sanford Federal INC. developed a holistic, integrated approach to
+              both offensive and defensive cybersecurity. This approach
+              encompasses legacy, prevailing and emerging technologies,
+              architectures, risk management, policies, situational awareness,
+              and intelligence. Utilizing the most advanced tools available, our
+              seasoned team of accomplished industry experts provide our clients
+              with our unique and unparalleled set of capabilities in order to
+              solve their most difficult cybersecurity challenges.
+            </p>
+          </div>
+          <div class="our_services--popup-image Cyber-security_image"></div>
+        </div>
+        <!-- Cyber security Popup Section End -->
+
+        <!-- Data Technologies Popup Section Start -->
+        <div class="our_services--popup-container Data-Technologies_popup">
+          <button class="close_button" id="close_button">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+          <div class="our_services--popup-image Data-Technologies_image"></div>
+          <div class="our_services--popup-text">
+            <h3 class="our_services--popup-title">
+              Data Analysis And Management
+            </h3>
+            <p class="our_services--popup-description">
+              Our team provides the federal government with solutions to its
+              needs in data analysis and management. We integrate legacy,
+              current, and emerging data storage technologies with a variety of
+              content management systems and the latest security. When it comes
+              to understanding metadata management and data warehousing, whether
+              it is on-premise or cloud storage, Sanford Federal Inc. is
+              equipped to handle the data needs of our clients both efficiently
+              and securely.
+            </p>
+          </div>
+        </div>
+        <!-- Data Technologies Popup Section End -->
+
+        <!-- Healthcare Services Popup Section Start -->
+        <div class="our_services--popup-container Healthcare-Services_popup">
+          <button class="close_button" id="close_button">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+          <div
+            class="our_services--popup-image Healthcare-Services_image"
+          ></div>
+          <div class="our_services--popup-text">
+            <h3 class="our_services--popup-title">Healthcare Services</h3>
+            <p class="our_services--popup-description">
+              We provide professional healthcare services solutions and
+              innovative products to the US government at home and abroad. Our
+              range of capabilities from professional staffing and augmentation
+              of healthcare personnel to the provision of programs that
+              facilitate clinical development and direct quality patient-centric
+              care allow us to assist our customers in revolutionizing the
+              administration of quality healthcare. Our state-of-the-art
+              technology solutions equip healthcare professionals with
+              innovative electronic network capabilities that enable them to
+              integrate business operations, advance clinical intelligence,
+              implement successful management practices, and ultimately improve
+              the quality and delivery of patient care.
+            </p>
+          </div>
+        </div>
+        <!-- Healthcare Services Popup Section End -->
+
+        <!-- Operational Support Popup Section Start -->
+        <div class="our_services--popup-container Operational-Support_popup">
+          <button class="close_button" id="close_button">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+          <div class="our_services--popup-text">
+            <h3 class="our_services--popup-title">Managed Services</h3>
+            <p class="our_services--popup-description">
+              Our team understands the challenges associated with operating
+              large agencies with limited budgets. In order to allow agencies to
+              focus on their missions instead of their growing costs, SANFORD
+              FEDERAL Inc. International provides our clients with outstanding
+              managed services. From IT services, support, and human resources
+              and payroll to project management and supply chain managed
+              services, our team is equipped to augment your agency’s operations
+              and improve productivity. Sanford Federal Inc. ensures that
+              transitions are both seamless and affordable. By leveraging its
+              diverse network of industry-leading partners, Sanford Federal Inc.
+              is able to provide virtually any managed service required.
+            </p>
+          </div>
+          <div
+            class="our_services--popup-image Operational-Support_image"
+          ></div>
+        </div>
+        <!-- Operational Support Popup Section End -->
+
+        <!-- Program Management Popup Section Start -->
+        <div class="our_services--popup-container Program-Management_popup">
+          <button class="close_button" id="close_button">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+          <div class="our_services--popup-image Program-Management_image"></div>
+          <div class="our_services--popup-text">
+            <h3 class="our_services--popup-title">Information Technology</h3>
+            <p class="our_services--popup-description">
+              At Sanford Federal Inc., we recognize the growing requirement of
+              information technology and management. We provide our clients with
+              a suite of full life cycle capabilities in IT, from the design and
+              development phases to installation and evaluation. Our team offers
+              a myriad of capabilities, including but not limited to: network
+              and server administration, infrastructure support, software
+              development, cloud computing and virtualization, interface and web
+              development, modernization, identity and access management,
+              license management, help desk support, and quality assurance. Our
+              talented team of world-class IT professionals is able to provide
+              virtually any IT solution required by our clients.
+            </p>
+          </div>
+        </div>
+        <!-- Program Management Popup Section End -->
+
+        <div class="services_list" id="services">
+          <p class="services_list-text">
+            We Provide High-Level Services, in The Main Defense Fields.
+          </p>
+          <div class="logistics-container">
+            <div class="logistics">
+              <div class="logistics-content">
+                <p>LOGISTICS</p>
+              </div>
+            </div>
+          </div>
+          <div class="cyber_security-container">
+            <div class="cyber_security">
+              <div class="cyber_security-content">
+                <p>CYBER SECURITY</p>
+              </div>
+            </div>
+          </div>
+          <div class="data_technologies-container">
+            <div class="data_technologies">
+              <div class="data_technologies-content">
+                <p>DATA TECHNOLOGIES</p>
+              </div>
+            </div>
+          </div>
+          <div class="healthcare_services-container">
+            <div class="healthcare_services">
+              <div class="healthcare_services-content">
+                <p>HEALTHCARE SERVICES</p>
+              </div>
+            </div>
+          </div>
+          <div class="operational_support-container">
+            <div class="operational_support">
+              <div class="operational_support-content">
+                <p>MANAGED SERVICES</p>
+              </div>
+            </div>
+          </div>
+          <div class="program_management-container">
+            <div class="program_management">
+              <div class="program_management-content">
+                <p>Information Technology</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="our_partners" id="our_partners">
+        <h2 class="our_partners-title">OUR PARTNERS</h2>
+        <div class="our_partners-images">
+          <img
+            src="Logo/partner-1.webp"
+            id="partner1"
+            alt="Partner Logo"
+            class="our_partners-image"
+          />
+          <img
+            src="Logo/Partner-2.webp"
+            id="partner2"
+            alt="Partner Logo"
+            class="our_partners-image"
+          />
+          <img
+            src="Logo/Partner-3.webp"
+            id="partner3"
+            alt="Partner Logo"
+            class="our_partners-image"
+          />
+          <img
+            src="Logo/Partner-4.webp"
+            id="partner4"
+            alt="Partner Logo"
+            class="our_partners-image"
+          />
+          <img
+            src="Logo/Partner-5.webp"
+            id="partner5"
+            alt="Partner Logo"
+            class="our_partners-image"
+          />
+          <img
+            src="Logo/Partner-6.webp"
+            id="partner1"
+            alt="Partner Logo"
+            class="our_partners-image"
+          />
+          <img
+            src="Logo/Partner-7.webp"
+            id="partner7"
+            alt="Partner Logo"
+            class="our_partners-image"
+          />
+          <img
+            src="Logo/Partner-8.webp"
+            id="partner8" 
+            alt="Partner Logo"
+            class="our_partners-image"
+          />
+        </div>
+      </section>
+      <section class="awards">
+        <h3 class="awards_title">
+          Sanford Federal Inc. Has Been Certified As :
+        </h3>
+        <div class="awrards_individual">
+          <div class="award1">
+            <img src="Logo/SDVOSB-logo-color-1-300x300.webp" alt="SDVOSB Logo" />
+            <p class="award_description">
+              Service-Disabled Veteran-Owned Small Business
+            </p>
+          </div>
+          <div class="award2">
+            <img src="Logo/sba-logosba-300x229.webp" alt="SBA Logo" />
+            <p class="award_description">small business certification</p>
+          </div>
+          <div class="award3">
+            <img
+              src="Logo/SBA-VOSB-Certification-LOGO-phi8yoi9k06lgfg97m9jtpym9xewvb2443avmx49pk.webp"
+              alt="VOSB Logo"
+            />
+            <p class="award_description">
+              Veteran-Owned Small Business certification
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="contact_us" id="contact_us">
+        <div class="contact_us-header">
+          <h2 class="contact_us-header-title">CONTACT US</h2>
+        </div>
+        <div class="contact_us-information">
+          <div class="mail">
+            <i class="fa-solid fa-envelope-circle-check mail_icon"></i>
+            <div class="mail_text">
+              <h3 class="mail_title">EMAIL US</h3>
+              <p class="mail_body">Contact@Sanfordfederal.com</p>
+            </div>
+          </div>
+          <div class="phone">
+            <i class="fa-solid fa-phone phone_icon"></i>
+            <div class="phone_text">
+              <h3 class="phone_title">CALL US</h3>
+              <p class="mail_body">+1 (540) 242-1674</p>
+            </div>
+          </div>
+          <!--  <div class="meetus">
+            <i class="fa-solid fa-building-columns meetus_icon"></i>
+            <div class="meetus_text">
+              <h3 class="meetus_title">MEET US</h3>
+              <p class="meetus_body">
+                Corporate Drive 600 Suite 301 Stafford, VA 22554, US
+              </p>
+            </div>
+          </div> -->
+          <div class="business_hours">
+            <i class="fa-solid fa-calendar-days business_hours_icon"></i>
+            <div class="business_hours_text">
+              <h3 class="business_hours_title">BUSINESS HOURS</h3>
+              <p class="business_hours_body">Monday — Friday 9am – 5pm</p>
+            </div>
+          </div>
+          <!-- <div class="contact_us-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3121.7367086929894!2d-77.3719689!3d38.5167828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b6fa7be617e449%3A0x2381d00c5217d144!2s600%20Corporate%20Dr%20%23301%2C%20Stafford%2C%20VA%2022554%2C%20USA!5e0!3m2!1sen!2sma!4v1656011346680!5m2!1sen!2sma"
+              width="720"
+              height="480"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              class="map_desktop"
+            ></iframe>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3121.7367086929894!2d-77.3719689!3d38.5167828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b6fa7be617e449%3A0x2381d00c5217d144!2s600%20Corporate%20Dr%20%23301%2C%20Stafford%2C%20VA%2022554%2C%20USA!5e0!3m2!1sen!2sma!4v1656011346680!5m2!1sen!2sma"
+              width="360"
+              height="240"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              class="map_mobile"
+            ></iframe>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3121.7367086929894!2d-77.3719689!3d38.5167828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b6fa7be617e449%3A0x2381d00c5217d144!2s600%20Corporate%20Dr%20%23301%2C%20Stafford%2C%20VA%2022554%2C%20USA!5e0!3m2!1sen!2sma!4v1656011346680!5m2!1sen!2sma"
+              width="240"
+              height="180"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              class="map_sm"
+            ></iframe>
+          </div> -->
+        </div>
+      </section>
+    </main>
+    <footer class="main_footer">
+      <a href="#navbar"
+        ><img
+          src="logo/white-logo-no-background.webp"
+          alt="Sanford Federal Logo"
+          class="sanford_logo"
+      /></a>
+      <ul class="footer_navbar">
+        <li class="footer_first-li"><a href="#our_company">Who we are</a></li>
+        <hr class="horizontal_break" />
+        <li><a href="#our_partners">Insights & News</a></li>
+        <li><a href="#contact_us">Contact US</a></li>
+      </ul>
+      <ul class="footer_services">
+        <li class="footer_first-li"><a href="#our_services">What We Do</a></li>
+        <hr class="horizontal_break" />
+        <li><a href="#services">Cybersecurity</a></li>
+        <li><a href="#services">Information Technologies</a></li>
+        <li><a href="#services">Healthcare Services</a></li>
+        <li><a href="#services">Managed Services</a></li>
+        <li><a href="#services">Data Analysis And Management</a></li>
+      </ul>
+    </footer>
+    <script src="scripts/spinner.js"></script>
+    <script src="scripts/scrollreveal.js"></script>
+    <script src="scripts/navbar.js"></script>
+    <script src="scripts/popupMenus.js"></script>
+    <script src="scripts/homePage.js"></script>
+  </body>
+</html>
