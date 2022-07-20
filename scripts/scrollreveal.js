@@ -1,8 +1,8 @@
 
-
 ScrollReveal({
     reset: false,
-    distance: "100px",
+    distance: "50px",
+    delay: "100",
     duration: 500
 });
 
