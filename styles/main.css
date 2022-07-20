@@ -243,7 +243,7 @@ body {
 }
 .dropdownMenu-content {
   position: absolute;
-  width: 100%;
+  width: 300px;
   visibility: hidden;
   opacity: 0;
   background-color: hsla(214, 100%, 18%, 0.7);
