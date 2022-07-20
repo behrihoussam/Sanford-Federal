@@ -1721,14 +1721,12 @@ footer ul a:focus {
     padding: 3rem 1rem;
     top: 0px;
     bottom: 0px;
-    left: 0px;
-    right: 0px;
   }
   .our_services--popup-title {
     font-size: 2rem;
   }
   .our_services--popup-description {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .our_services--popup-image {
     height: 300px;
@@ -1800,8 +1798,6 @@ footer ul a:focus {
   }
   .our_services--popup-container {top:0;
     bottom:0;
-    left:0;
-    right:0;
     padding: 1rem 1rem;
   }
   .our_services--popup-title {
