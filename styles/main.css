@@ -1798,9 +1798,10 @@ footer ul a:focus {
   .our_values--image {
     width: 50%;
   }
-  .our_services--popup-container {
-    top: 50px;
-    bottom: 50px;
+  .our_services--popup-container {top:0;
+    bottom:0;
+    left:0;
+    right:0;
     padding: 1rem 1rem;
   }
   .our_services--popup-title {
