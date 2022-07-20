@@ -1719,14 +1719,16 @@ footer ul a:focus {
   }
   .our_services--popup-container {
     padding: 3rem 1rem;
-    top: 50px;
-    bottom: 50px;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
   }
   .our_services--popup-title {
     font-size: 2rem;
   }
   .our_services--popup-description {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
   .our_services--popup-image {
     height: 300px;
